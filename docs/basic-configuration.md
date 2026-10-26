@@ -375,6 +375,8 @@ https://mcp.notion.com/mcp
 
 需要数据库、部署或存储等后端时，可再添加一个远程 URL：`https://cohesivity.ai/mcp`，认证方式选 **无**。Cohesivity MCP 让 Agent 直接创建后端并开通所需服务，开始使用无需账号或 API Key；后端 72 小时后过期，认领后可保留。
 
+需要把 Agent 生成的结果发布成公开网页时，可再添加一个远程 URL：`https://deed.page/mcp`，认证方式选 **无**。deed.page MCP 用 `publish_site` 把文件发布到 `https://{slug}.deed.page/`，无需账号或 API Key；发布的页面公开可见。
+
 ## 7. 配置 ACP
 
 ACP（Agent Client Protocol）用于运行已经安装在本机的外部 Agent。它与 HTTP 模型配置相互独立，并且当前只支持本地 stdio。
